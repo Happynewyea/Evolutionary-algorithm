@@ -17,6 +17,6 @@ def iscomp(infolist, Enviro):
     return cpdata
 
 def mutanted(lifedata, w):
-    weight = np.random.randint(-1 * int(w/100) - 1, 1 * int(w/100) + 2)
+    weight = np.random.randint(-1 * int(w/131072) - 1, 1 * int(w/131072) + 2)
     lifedata = lifedata + weight
     return lifedata
